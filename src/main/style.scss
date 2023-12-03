@@ -1,0 +1,36 @@
+.slider_container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  height: 768px;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  background: url("./assets/bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: 1s;
+}
+
+.content {
+  position: relative;
+  width: fit-content;
+  height: 768px;
+  overflow: hidden;
+}
+
+.header {
+  position: fixed;
+  width: 15%;
+  top: 20px;
+  left: 49px;
+  z-index: 999;
+}
+
+.footer {
+  position: fixed;
+  width: 6%;
+  bottom: 20px;
+  left: 49px;
+  z-index: 999;
+}
